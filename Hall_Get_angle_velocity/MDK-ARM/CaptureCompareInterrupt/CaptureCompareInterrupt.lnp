@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"capturecompareinterrupt\hall.o"
+"capturecompareinterrupt\main.o"
+"capturecompareinterrupt\gpio.o"
+"capturecompareinterrupt\tim.o"
+"capturecompareinterrupt\usart.o"
+"capturecompareinterrupt\stm32f1xx_it.o"
+"capturecompareinterrupt\stm32f1xx_hal_msp.o"
+"capturecompareinterrupt\stm32f1xx_hal_gpio_ex.o"
+"capturecompareinterrupt\stm32f1xx_hal_tim.o"
+"capturecompareinterrupt\stm32f1xx_hal_tim_ex.o"
+"capturecompareinterrupt\stm32f1xx_hal.o"
+"capturecompareinterrupt\stm32f1xx_hal_rcc.o"
+"capturecompareinterrupt\stm32f1xx_hal_rcc_ex.o"
+"capturecompareinterrupt\stm32f1xx_hal_gpio.o"
+"capturecompareinterrupt\stm32f1xx_hal_dma.o"
+"capturecompareinterrupt\stm32f1xx_hal_cortex.o"
+"capturecompareinterrupt\stm32f1xx_hal_pwr.o"
+"capturecompareinterrupt\stm32f1xx_hal_flash.o"
+"capturecompareinterrupt\stm32f1xx_hal_flash_ex.o"
+"capturecompareinterrupt\stm32f1xx_hal_exti.o"
+"capturecompareinterrupt\stm32f1xx_hal_uart.o"
+"capturecompareinterrupt\startup_stm32f10x_md.o"
+"capturecompareinterrupt\system_stm32f1xx.o"
+--strict --scatter "CaptureCompareInterrupt\CaptureCompareInterrupt.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "./CaptureCompareInterrupt/\CaptureCompareInterrupt.map" -o CaptureCompareInterrupt\CaptureCompareInterrupt.axf
