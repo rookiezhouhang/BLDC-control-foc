@@ -7,4 +7,7 @@ v0.3 enable hall
 
 v1.0 closeloop velocity control
 
-v1.1 add current loop
+v1.1 add current loop(foc placed in main function)
+
+//update: put FOC in ADC interrupt
+v1.2
